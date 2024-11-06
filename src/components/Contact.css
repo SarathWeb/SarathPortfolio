@@ -1,0 +1,105 @@
+.form-container label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.form-container input,
+.form-container textarea {
+    border: none;
+    resize: none;
+    outline: none;
+    color: rgba(0, 80, 255);
+    width: 100%;
+    overflow: hidden;
+}
+
+.form-container input {
+    padding: 8px 0;
+
+}
+
+.input__field {
+    border-bottom: 1px solid #000;
+}
+
+.sub__send_btn button {
+    font-size: 14px;
+    background-color: rgba(0, 80, 255, 1);
+    color: #fff;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.name__field {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.talk__container {
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+
+.talk__container_bg {
+    background-color: rgb(230, 218, 206);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.form__container_bg {
+    padding: 44px;
+    background-color: #ffffff;
+}
+
+.talk__title span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-color: rgba(0, 80, 255, 1);
+}
+
+.talk__title {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    line-height: 35px;
+    margin-bottom: 50px;
+    justify-content: center;
+    font-weight: 700;
+}
+
+@media screen and (max-width:768px) {
+    .talk__container {
+        padding: 24px;
+    }
+
+    .talk__title {
+        font-size: 29px;
+        margin-bottom: 30px;
+    }
+
+    .talk__container_bg {
+        padding-top: 200px;
+        padding-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width:580px) {
+
+    .talk__container_bg {
+        padding-top: 150px;
+    }
+
+}

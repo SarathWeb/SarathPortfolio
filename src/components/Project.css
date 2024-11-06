@@ -1,0 +1,109 @@
+.project__title {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    line-height: 35px;
+    margin-bottom: 50px;
+    justify-content: center;
+    font-weight: 700;
+}
+.project__title span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-color: rgba(0, 80, 255, 1);
+}
+.project__content p {
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.project__info {
+    background-color: #fff;
+    padding: 50px 24px;
+}
+
+.project__info h2 {
+    font-size: 20px;
+    color: rgba(0, 80, 255, 1);
+}
+.project__info h3 {
+    font-size: 14px;
+    margin-bottom: 42px;
+}
+.project__info p {
+    font-size: 17px;
+}
+.project__info_container {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.project__container {
+max-width: 750px;
+margin: 0 auto;
+}
+.project__container_bg {
+    background-color: rgb(230,218,206);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.project__img img{
+    max-width: 322px;
+    height: 100%;
+}
+
+@media screen and (min-width:769px) and (max-width:991px) {
+    .project__container {
+        padding:0 24px;
+    
+    }
+}
+
+@media screen and (max-width:768px) {
+    .project__container_bg {
+        padding-top: 200px;
+        padding-bottom: 30px;
+    }
+    .project__container {
+        padding: 24px;
+    }
+    .project__title {
+        font-size: 29px;
+        margin-bottom: 30px;
+    }
+    .project__content p {
+        font-size: 16px;
+    }
+    .project__info_container {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+    .project__img img {
+        min-width:100%;
+        width: 100%;
+    }
+    .project__info h2  {
+        font-size: 15px;
+    }
+    .project__info h3 {
+        font-size: 12px;
+        margin-bottom: 32px;
+    }
+    .project__info p {
+        font-size: 16px;
+    }
+    .project__info {
+        padding: 30px 24px;
+    }
+
+}
+
+@media screen and (max-width:580px) {
+    .project__container_bg {
+        padding-top: 150px;
+    }
+}
